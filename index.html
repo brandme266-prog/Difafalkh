@@ -46,6 +46,16 @@
     href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap"
     rel="stylesheet">
 
+  <!-- Tailwind CSS (No Preflight to avoid breaking existing styles) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      corePlugins: {
+        preflight: false,
+      }
+    }
+  </script>
+
   <!-- Schema.org JSON-LD SEO - Organization -->
   <script type="application/ld+json">
     {
