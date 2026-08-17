@@ -87,7 +87,7 @@ export default function ProjectDetails() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-6">معرض الصور</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
                   {project.gallery.map((img, idx) => (
-                    <div key={idx} className="rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow aspect-video sm:aspect-square md:aspect-video bg-slate-100 relative group">
+                    <div key={idx} className="rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow h-64 sm:h-56 md:h-64 bg-slate-100 relative group">
                       <img 
                         src={img} 
                         alt={`${project.title} - صورة ${idx + 1}`} 
